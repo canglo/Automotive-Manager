@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E5C22F3D-CA31-4F83-8413-3094E653AFD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NETChristianAnglo</RootNamespace>
+    <AssemblyName>NETChristianAnglo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutomotiveManager.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarWash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarWash.designer.cs">
+      <DependentUpon>frmCarWash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarWashInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarWashInvoice.Designer.cs">
+      <DependentUpon>frmCarWashInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditVehicleStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditVehicleStock.designer.cs">
+      <DependentUpon>frmEditVehicleStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFrame.Designer.cs">
+      <DependentUpon>frmFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvoice.designer.cs">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuote.Designer.cs">
+      <DependentUpon>frmQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmService.designer.cs">
+      <DependentUpon>frmService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServiceInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServiceInvoice.Designer.cs">
+      <DependentUpon>frmServiceInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVehicleStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVehicleStock.designer.cs">
+      <DependentUpon>frmVehicleStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarWash.resx">
+      <DependentUpon>frmCarWash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarWashInvoice.resx">
+      <DependentUpon>frmCarWashInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditVehicleStock.resx">
+      <DependentUpon>frmEditVehicleStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFrame.resx">
+      <DependentUpon>frmFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvoice.resx">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuote.resx">
+      <DependentUpon>frmQuote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmService.resx">
+      <DependentUpon>frmService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServiceInvoice.resx">
+      <DependentUpon>frmServiceInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVehicleStock.resx">
+      <DependentUpon>frmVehicleStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessTier\BusinessTier.csproj">
+      <Project>{C9D86A30-889F-4F4B-8BD0-616BB202234B}</Project>
+      <Name>BusinessTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataTier\DataTier.csproj">
+      <Project>{CE015D3C-7DFA-4BED-B5E6-DF891FDA60AE}</Project>
+      <Name>DataTier</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

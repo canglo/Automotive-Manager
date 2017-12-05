@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f9d644e7-4074-49d0-8640-7e299b7fb8f0" name="Administrator@BITF2015WIT1 2016-05-16 20:42:40" runUser="BITF2015WIT1\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c0b38666-2f04-4aff-b33a-9eea5a11426e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_BITF2015WIT1 2016-05-16 20_42_40">
+      <DeploymentItem filename="C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 3\NETChristianAnglo\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-05-16T20:42:40.5943521-05:00" queuing="2016-05-16T20:42:40.6103732-05:00" start="2016-05-16T20:42:40.6569074-05:00" finish="2016-05-16T20:42:41.0166536-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetSalesTaxTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="1e970a9e-e0df-eab4-ea2a-9929ea48e3be">
+      <Execution id="4fd7c54c-b6dd-4ad9-8b7a-1d69d6a5bb89" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSalesTaxTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e970a9e-e0df-eab4-ea2a-9929ea48e3be" executionId="4fd7c54c-b6dd-4ad9-8b7a-1d69d6a5bb89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4fd7c54c-b6dd-4ad9-8b7a-1d69d6a5bb89" testId="1e970a9e-e0df-eab4-ea2a-9929ea48e3be" testName="GetSalesTaxTest" computerName="BITF2015WIT1" duration="00:00:00.0113084" startTime="2016-05-16T20:42:40.7819804-05:00" endTime="2016-05-16T20:42:40.9380976-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fd7c54c-b6dd-4ad9-8b7a-1d69d6a5bb89">
+    </UnitTestResult>
+  </Results>
+</TestRun>

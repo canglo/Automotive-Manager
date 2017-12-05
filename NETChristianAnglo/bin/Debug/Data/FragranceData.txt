@@ -1,0 +1,6 @@
+Hawaiian Mist,2.75
+Baby Powder,1.50
+Pine,0.00
+Country Floral,2.25
+Pina Colada,0.75
+Vanilla,2.00

@@ -1,0 +1,13 @@
+C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\bin\Debug\DataTier.exe
+C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\bin\Debug\DataTier.pdb
+C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.Properties.Resources.resources
+C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.csproj.GenerateResource.Cache
+C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.exe
+C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.pdb
+C:\Users\Cj_2\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\bin\Debug\DataTier.exe
+C:\Users\Cj_2\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\bin\Debug\DataTier.pdb
+C:\Users\Cj_2\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.csprojResolveAssemblyReference.cache
+C:\Users\Cj_2\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.Properties.Resources.resources
+C:\Users\Cj_2\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.csproj.GenerateResource.Cache
+C:\Users\Cj_2\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.exe
+C:\Users\Cj_2\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\obj\x86\Debug\DataTier.pdb

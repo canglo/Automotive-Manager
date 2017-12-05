@@ -1,0 +1,4 @@
+Standard,7.50
+Deluxe,15.00
+Executive,35.00
+Luxury,55.00

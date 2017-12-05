@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="60dee4e3-fdc5-4f9e-b086-aa518492172e" name="Administrator@BITF2015WIT1 2016-05-17 09:07:59" runUser="BITF2015WIT1\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c0b38666-2f04-4aff-b33a-9eea5a11426e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_BITF2015WIT1 2016-05-17 09_07_59">
+      <DeploymentItem filename="C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 3\NETChristianAnglo\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-05-17T09:07:59.2883884-05:00" queuing="2016-05-17T09:08:04.0029388-05:00" start="2016-05-17T09:08:04.1870168-05:00" finish="2016-05-17T09:08:05.7181849-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetTotalTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="66e8f18b-4474-bf82-47be-fd6a3cd6406a">
+      <Execution id="00bc7814-2b72-42df-9fe3-df0ded920ef4" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetTotalTest" />
+    </UnitTest>
+    <UnitTest name="GetSubtotalTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="3484b3f4-03b9-8199-4ea4-8cec3aa2454d">
+      <Execution id="e7839de8-1033-421c-8926-98ace84c8757" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSubtotalTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostNoneTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="db9919f2-3a23-ece0-6012-0c73952f6838">
+      <Execution id="8eb2758f-8a33-4267-aab4-fc5df288bb15" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostNoneTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostStereoSystemTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="27e33d7f-7bb1-0b00-13d1-1ed65fffaf72">
+      <Execution id="89069888-8787-4e0c-b98b-32dc820f021f" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostStereoSystemTest" />
+    </UnitTest>
+    <UnitTest name="GetFinishCostCustomTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="cc988782-64a6-6ac0-6c34-8536abdb7b09">
+      <Execution id="aad92483-27a6-4859-851c-6f95ea4bf38f" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFinishCostCustomTest" />
+    </UnitTest>
+    <UnitTest name="GetAmountDueTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="246d975c-63bd-566a-04f8-a498095e6483">
+      <Execution id="ba1d96a3-abc3-429f-b58d-f5f2bb80ca5d" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAmountDueTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostAllTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="6f4a3126-efa1-2dfd-d6bb-1f307bf0351f">
+      <Execution id="0cf2163e-1b2c-449b-9daf-d7beb90285e1" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostAllTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostStereoAndLeatherTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="460211d0-dcb6-d229-f609-f4b213140c77">
+      <Execution id="5c260783-ec61-4091-b8d6-03728a288b5a" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostStereoAndLeatherTest" />
+    </UnitTest>
+    <UnitTest name="GetFinishCostPearlizedTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="9512941a-2a8b-13fc-6523-bcfd72aba5bc">
+      <Execution id="fdb37334-c38a-4d15-b573-716b8d2a149f" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFinishCostPearlizedTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostStereoAndNavigationTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="b2c46202-6037-d126-d612-c0fccb7d4d01">
+      <Execution id="26ab20ae-eea3-4bc4-af5a-cb340c73e289" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostStereoAndNavigationTest" />
+    </UnitTest>
+    <UnitTest name="GetFinishCostNoneTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="7ef04d87-7dec-d3ae-933d-dcb14d576ad1">
+      <Execution id="26373007-8260-42f3-ab00-38755deee09a" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFinishCostNoneTest" />
+    </UnitTest>
+    <UnitTest name="SalesQuoteConstructorTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="624b3b86-2ae2-6a34-4af0-fbe0c3312bdd">
+      <Execution id="68b90fca-70de-4c36-9e62-b36dff3cd098" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SalesQuoteConstructorTest" />
+    </UnitTest>
+    <UnitTest name="GetFinishCostStandardTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="d3272536-82e3-7f82-dc00-12ba9cfce9d2">
+      <Execution id="d0e5fdab-7138-4130-983b-2bb88effb229" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFinishCostStandardTest" />
+    </UnitTest>
+    <UnitTest name="GetSalesTaxTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="1e970a9e-e0df-eab4-ea2a-9929ea48e3be">
+      <Execution id="8c1c24c4-8dba-46e6-bf03-26e750dd7d3b" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSalesTaxTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostComputerNavigationTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="80a2abd0-f247-fffc-77a7-a7cfb28a3a26">
+      <Execution id="bb64261a-422f-4733-bca6-5cb634858385" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostComputerNavigationTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostLeatherInteriorTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="7fe69506-6d23-71a2-98bd-760a3034c69f">
+      <Execution id="4a224879-4fd8-4b4e-bb85-ebc10bca7938" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostLeatherInteriorTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessoryCostLeatherAndNavigationTest" storage="c:\users\administrator\google drive\rrc\bit\year 1\intersession\programming 2 intersession\assignments\assignment 3\netchristiananglo\testchristiananglo\bin\debug\testchristiananglo.dll" id="8de06300-9822-4435-2482-11422ee6afc8">
+      <Execution id="b6bf6084-d726-459d-a61b-c14d063ecd76" />
+      <TestMethod codeBase="C:/Users/Administrator/Google Drive/RRC/BIT/Year 1/Intersession/Programming 2 Intersession/Assignments/Assignment 3/NETChristianAnglo/TestChristianAnglo/bin/Debug/TestChristianAnglo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestChristianAnglo.SalesQuoteTest, TestChristianAnglo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAccessoryCostLeatherAndNavigationTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e970a9e-e0df-eab4-ea2a-9929ea48e3be" executionId="8c1c24c4-8dba-46e6-bf03-26e750dd7d3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="246d975c-63bd-566a-04f8-a498095e6483" executionId="ba1d96a3-abc3-429f-b58d-f5f2bb80ca5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27e33d7f-7bb1-0b00-13d1-1ed65fffaf72" executionId="89069888-8787-4e0c-b98b-32dc820f021f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3484b3f4-03b9-8199-4ea4-8cec3aa2454d" executionId="e7839de8-1033-421c-8926-98ace84c8757" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="460211d0-dcb6-d229-f609-f4b213140c77" executionId="5c260783-ec61-4091-b8d6-03728a288b5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="624b3b86-2ae2-6a34-4af0-fbe0c3312bdd" executionId="68b90fca-70de-4c36-9e62-b36dff3cd098" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66e8f18b-4474-bf82-47be-fd6a3cd6406a" executionId="00bc7814-2b72-42df-9fe3-df0ded920ef4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f4a3126-efa1-2dfd-d6bb-1f307bf0351f" executionId="0cf2163e-1b2c-449b-9daf-d7beb90285e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ef04d87-7dec-d3ae-933d-dcb14d576ad1" executionId="26373007-8260-42f3-ab00-38755deee09a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7fe69506-6d23-71a2-98bd-760a3034c69f" executionId="4a224879-4fd8-4b4e-bb85-ebc10bca7938" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80a2abd0-f247-fffc-77a7-a7cfb28a3a26" executionId="bb64261a-422f-4733-bca6-5cb634858385" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8de06300-9822-4435-2482-11422ee6afc8" executionId="b6bf6084-d726-459d-a61b-c14d063ecd76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9512941a-2a8b-13fc-6523-bcfd72aba5bc" executionId="fdb37334-c38a-4d15-b573-716b8d2a149f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2c46202-6037-d126-d612-c0fccb7d4d01" executionId="26ab20ae-eea3-4bc4-af5a-cb340c73e289" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc988782-64a6-6ac0-6c34-8536abdb7b09" executionId="aad92483-27a6-4859-851c-6f95ea4bf38f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3272536-82e3-7f82-dc00-12ba9cfce9d2" executionId="d0e5fdab-7138-4130-983b-2bb88effb229" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db9919f2-3a23-ece0-6012-0c73952f6838" executionId="8eb2758f-8a33-4267-aab4-fc5df288bb15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8c1c24c4-8dba-46e6-bf03-26e750dd7d3b" testId="1e970a9e-e0df-eab4-ea2a-9929ea48e3be" testName="GetSalesTaxTest" computerName="BITF2015WIT1" duration="00:00:00.0270960" startTime="2016-05-17T09:08:04.5302957-05:00" endTime="2016-05-17T09:08:04.8315955-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c1c24c4-8dba-46e6-bf03-26e750dd7d3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="ba1d96a3-abc3-429f-b58d-f5f2bb80ca5d" testId="246d975c-63bd-566a-04f8-a498095e6483" testName="GetAmountDueTest" computerName="BITF2015WIT1" duration="00:00:00.0018029" startTime="2016-05-17T09:08:04.8779141-05:00" endTime="2016-05-17T09:08:04.8866874-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba1d96a3-abc3-429f-b58d-f5f2bb80ca5d">
+    </UnitTestResult>
+    <UnitTestResult executionId="89069888-8787-4e0c-b98b-32dc820f021f" testId="27e33d7f-7bb1-0b00-13d1-1ed65fffaf72" testName="GetAccessoryCostStereoSystemTest" computerName="BITF2015WIT1" duration="00:00:00.0016011" startTime="2016-05-17T09:08:04.8967000-05:00" endTime="2016-05-17T09:08:04.9047014-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89069888-8787-4e0c-b98b-32dc820f021f">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7839de8-1033-421c-8926-98ace84c8757" testId="3484b3f4-03b9-8199-4ea4-8cec3aa2454d" testName="GetSubtotalTest" computerName="BITF2015WIT1" duration="00:00:00.0011580" startTime="2016-05-17T09:08:04.9177085-05:00" endTime="2016-05-17T09:08:04.9226979-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7839de8-1033-421c-8926-98ace84c8757">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c260783-ec61-4091-b8d6-03728a288b5a" testId="460211d0-dcb6-d229-f609-f4b213140c77" testName="GetAccessoryCostStereoAndLeatherTest" computerName="BITF2015WIT1" duration="00:00:00.0047277" startTime="2016-05-17T09:08:04.9743844-05:00" endTime="2016-05-17T09:08:04.9893955-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c260783-ec61-4091-b8d6-03728a288b5a">
+    </UnitTestResult>
+    <UnitTestResult executionId="68b90fca-70de-4c36-9e62-b36dff3cd098" testId="624b3b86-2ae2-6a34-4af0-fbe0c3312bdd" testName="SalesQuoteConstructorTest" computerName="BITF2015WIT1" duration="00:00:00.0094152" startTime="2016-05-17T09:08:05.0389112-05:00" endTime="2016-05-17T09:08:05.0919898-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b90fca-70de-4c36-9e62-b36dff3cd098">
+    </UnitTestResult>
+    <UnitTestResult executionId="00bc7814-2b72-42df-9fe3-df0ded920ef4" testId="66e8f18b-4474-bf82-47be-fd6a3cd6406a" testName="GetTotalTest" computerName="BITF2015WIT1" duration="00:00:00.0003690" startTime="2016-05-17T09:08:05.1200083-05:00" endTime="2016-05-17T09:08:05.1230117-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00bc7814-2b72-42df-9fe3-df0ded920ef4">
+    </UnitTestResult>
+    <UnitTestResult executionId="0cf2163e-1b2c-449b-9daf-d7beb90285e1" testId="6f4a3126-efa1-2dfd-d6bb-1f307bf0351f" testName="GetAccessoryCostAllTest" computerName="BITF2015WIT1" duration="00:00:00.0003134" startTime="2016-05-17T09:08:05.1660233-05:00" endTime="2016-05-17T09:08:05.1700394-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cf2163e-1b2c-449b-9daf-d7beb90285e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="26373007-8260-42f3-ab00-38755deee09a" testId="7ef04d87-7dec-d3ae-933d-dcb14d576ad1" testName="GetFinishCostNoneTest" computerName="BITF2015WIT1" duration="00:00:00.0005739" startTime="2016-05-17T09:08:05.2251065-05:00" endTime="2016-05-17T09:08:05.2361177-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26373007-8260-42f3-ab00-38755deee09a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a224879-4fd8-4b4e-bb85-ebc10bca7938" testId="7fe69506-6d23-71a2-98bd-760a3034c69f" testName="GetAccessoryCostLeatherInteriorTest" computerName="BITF2015WIT1" duration="00:00:00.0002745" startTime="2016-05-17T09:08:05.2591485-05:00" endTime="2016-05-17T09:08:05.2631496-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a224879-4fd8-4b4e-bb85-ebc10bca7938">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb64261a-422f-4733-bca6-5cb634858385" testId="80a2abd0-f247-fffc-77a7-a7cfb28a3a26" testName="GetAccessoryCostComputerNavigationTest" computerName="BITF2015WIT1" duration="00:00:00.0011101" startTime="2016-05-17T09:08:05.2851417-05:00" endTime="2016-05-17T09:08:05.2891449-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb64261a-422f-4733-bca6-5cb634858385">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6bf6084-d726-459d-a61b-c14d063ecd76" testId="8de06300-9822-4435-2482-11422ee6afc8" testName="GetAccessoryCostLeatherAndNavigationTest" computerName="BITF2015WIT1" duration="00:00:00.0003113" startTime="2016-05-17T09:08:05.3071701-05:00" endTime="2016-05-17T09:08:05.3141887-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6bf6084-d726-459d-a61b-c14d063ecd76">
+    </UnitTestResult>
+    <UnitTestResult executionId="fdb37334-c38a-4d15-b573-716b8d2a149f" testId="9512941a-2a8b-13fc-6523-bcfd72aba5bc" testName="GetFinishCostPearlizedTest" computerName="BITF2015WIT1" duration="00:00:00.0002903" startTime="2016-05-17T09:08:05.3392072-05:00" endTime="2016-05-17T09:08:05.3429980-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdb37334-c38a-4d15-b573-716b8d2a149f">
+    </UnitTestResult>
+    <UnitTestResult executionId="26ab20ae-eea3-4bc4-af5a-cb340c73e289" testId="b2c46202-6037-d126-d612-c0fccb7d4d01" testName="GetAccessoryCostStereoAndNavigationTest" computerName="BITF2015WIT1" duration="00:00:00.0002364" startTime="2016-05-17T09:08:05.3610954-05:00" endTime="2016-05-17T09:08:05.3960226-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26ab20ae-eea3-4bc4-af5a-cb340c73e289">
+    </UnitTestResult>
+    <UnitTestResult executionId="aad92483-27a6-4859-851c-6f95ea4bf38f" testId="cc988782-64a6-6ac0-6c34-8536abdb7b09" testName="GetFinishCostCustomTest" computerName="BITF2015WIT1" duration="00:00:00.0020617" startTime="2016-05-17T09:08:05.4010120-05:00" endTime="2016-05-17T09:08:05.4831004-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aad92483-27a6-4859-851c-6f95ea4bf38f">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0e5fdab-7138-4130-983b-2bb88effb229" testId="d3272536-82e3-7f82-dc00-12ba9cfce9d2" testName="GetFinishCostStandardTest" computerName="BITF2015WIT1" duration="00:00:00.0004045" startTime="2016-05-17T09:08:05.5052477-05:00" endTime="2016-05-17T09:08:05.5085329-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0e5fdab-7138-4130-983b-2bb88effb229">
+    </UnitTestResult>
+    <UnitTestResult executionId="8eb2758f-8a33-4267-aab4-fc5df288bb15" testId="db9919f2-3a23-ece0-6012-0c73952f6838" testName="GetAccessoryCostNoneTest" computerName="BITF2015WIT1" duration="00:00:00.0396583" startTime="2016-05-17T09:08:05.5301884-05:00" endTime="2016-05-17T09:08:05.5740690-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8eb2758f-8a33-4267-aab4-fc5df288bb15">
+    </UnitTestResult>
+  </Results>
+</TestRun>

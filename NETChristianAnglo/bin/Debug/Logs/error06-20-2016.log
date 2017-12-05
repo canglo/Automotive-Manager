@@ -1,0 +1,94 @@
+Date: 06-20-2016
+Time: 3:54 PM
+Message: Error reading form file.
+Stack trace:    at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at DataTier.Data..ctor(String connectionString, String tableName, String selectQuery) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\Data.cs:line 28
+   at DataTier.VehicleStockData..ctor(String connectionString, String tableName, String selectQuery) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\VehicleStockData.cs:line 10
+   at NETChristianAnglo.frmVehicleStock.frmVehicleStock_Load(Object sender, EventArgs e) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\NETChristianAnglo\frmVehicleStock.cs:line 61
+------------------------------------------
+Date: 06-20-2016
+Time: 3:54 PM
+Message: Error reading form file.
+Stack trace:    at NETChristianAnglo.frmVehicleStock.dgvVehicles_RowsAdded(Object sender, DataGridViewRowsAddedEventArgs e) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\NETChristianAnglo\frmVehicleStock.cs:line 45
+   at System.Windows.Forms.DataGridView.OnRowsAdded(DataGridViewRowsAddedEventArgs e)
+   at System.Windows.Forms.DataGridView.OnRowsAddedInternal(Int32 rowIndex, Int32 rowCount)
+   at System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PostNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow dataGridViewRow, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   at System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount)
+   at System.Windows.Forms.DataGridViewRowCollection.AddInternal(DataGridViewRow dataGridViewRow)
+   at System.Windows.Forms.DataGridView.RefreshRows(Boolean scrollIntoView)
+   at System.Windows.Forms.DataGridView.RefreshColumnsAndRows()
+   at System.Windows.Forms.DataGridView.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.set_BindingContextInternal(BindingContext value)
+   at System.Windows.Forms.ContainerControl.set_BindingContext(BindingContext value)
+   at System.Windows.Forms.ContainerControl.get_BindingContext()
+   at System.Windows.Forms.Control.get_BindingContextInternal()
+   at System.Windows.Forms.Control.get_BindingContext()
+   at System.Windows.Forms.Control.get_BindingContextInternal()
+   at System.Windows.Forms.ContainerControl.get_BindingContext()
+   at System.Windows.Forms.Control.get_BindingContextInternal()
+   at System.Windows.Forms.Control.get_BindingContext()
+   at System.Windows.Forms.DataGridView.DataGridViewDataConnection.SetDataConnection(Object dataSource, String dataMember)
+   at System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   at NETChristianAnglo.frmVehicleStock.frmVehicleStock_Load(Object sender, EventArgs e) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\NETChristianAnglo\frmVehicleStock.cs:line 69
+------------------------------------------
+Date: 06-20-2016
+Time: 3:56 PM
+Message: Error reading form file.
+Stack trace:    at NETChristianAnglo.frmVehicleStock.dgvVehicles_RowsAdded(Object sender, DataGridViewRowsAddedEventArgs e) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\NETChristianAnglo\frmVehicleStock.cs:line 45
+   at System.Windows.Forms.DataGridView.OnRowsAdded(DataGridViewRowsAddedEventArgs e)
+   at System.Windows.Forms.DataGridView.OnRowsAddedInternal(Int32 rowIndex, Int32 rowCount)
+   at System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PostNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow dataGridViewRow, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   at System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount)
+   at System.Windows.Forms.DataGridViewRowCollection.AddInternal(DataGridViewRow dataGridViewRow)
+   at System.Windows.Forms.DataGridView.RefreshRows(Boolean scrollIntoView)
+   at System.Windows.Forms.DataGridView.RefreshColumnsAndRows()
+   at System.Windows.Forms.DataGridView.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   at System.Windows.Forms.Control.set_BindingContextInternal(BindingContext value)
+   at System.Windows.Forms.ContainerControl.set_BindingContext(BindingContext value)
+   at System.Windows.Forms.ContainerControl.get_BindingContext()
+   at System.Windows.Forms.Control.get_BindingContextInternal()
+   at System.Windows.Forms.Control.get_BindingContext()
+   at System.Windows.Forms.Control.get_BindingContextInternal()
+   at System.Windows.Forms.ContainerControl.get_BindingContext()
+   at System.Windows.Forms.Control.get_BindingContextInternal()
+   at System.Windows.Forms.Control.get_BindingContext()
+   at System.Windows.Forms.DataGridView.DataGridViewDataConnection.SetDataConnection(Object dataSource, String dataMember)
+   at System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   at NETChristianAnglo.frmVehicleStock.frmVehicleStock_Load(Object sender, EventArgs e) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\NETChristianAnglo\frmVehicleStock.cs:line 69
+------------------------------------------
+Date: 06-20-2016
+Time: 3:57 PM
+Message: Error reading form file.
+Stack trace:    at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at DataTier.Data..ctor(String connectionString, String tableName, String selectQuery) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\Data.cs:line 28
+   at DataTier.VehicleStockData..ctor(String connectionString, String tableName, String selectQuery) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\DataTier\VehicleStockData.cs:line 10
+   at NETChristianAnglo.frmVehicleStock.frmVehicleStock_Load(Object sender, EventArgs e) in C:\Users\Administrator\Google Drive\RRC\BIT\Year 1\Intersession\Programming 2 Intersession\Assignments\Assignment 7\NETChristianAnglo\NETChristianAnglo\frmVehicleStock.cs:line 61
+------------------------------------------
